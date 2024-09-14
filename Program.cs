@@ -26,7 +26,7 @@
 
         Console.Write("Ingrese el valor de la tercer venta: ");
         double Venta3 = Convert.ToDouble(Console.ReadLine());
-        double Comision3 = ((Venta3 * 10) / 100); 
+        double Comision3 = ((Venta3 * 10) / 100);
 
         //Solución a la primera pregunta
         double DineroComisiones = (Comision1 + Comision2 + Comision3);
@@ -38,6 +38,15 @@
         double DineroTotal = (DineroVentas + DineroComisiones);
         Console.Write($"Teniendo en cuenta que su sueldo base son sus ventas. El vendedor recibirá un sueldo de {DineroTotal:C}");
 
+        //Solución a la tercera pregunta
+        if ((Venta1 > Venta2) && (Venta1 > Venta2))
+        {
+            Console.Write($"La venta por valor de {Venta1:C} es la de mayor comisión");
 
+        }
+        else if ((Venta2 > Venta1) && (Venta2 > Venta3))
+        {
+            Console.Write($"La venta por valor de {Venta2:C} es la de mayor comisión");
+        }
     }
 }
