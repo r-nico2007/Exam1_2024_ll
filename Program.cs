@@ -39,7 +39,7 @@
         Console.WriteLine($"Teniendo en cuenta que su sueldo base son sus ventas. El vendedor recibirá un sueldo de {DineroTotal:C}");
 
         //Solución a la tercera pregunta
-        if ((Venta1 > Venta2) && (Venta1 > Venta2))
+        if ((Venta1 > Venta2) && (Venta1 > Venta3))
         {
             Console.WriteLine($"La venta por valor de {Venta1:C} es la de mayor comisión");
 
