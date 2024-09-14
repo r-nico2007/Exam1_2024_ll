@@ -12,15 +12,18 @@
         Console.Write("Ingrese el valor de a: ");
         decimal num1 = Convert.ToDecimal(Console.ReadLine());
 
-        Console.WriteLine("Ingrese el valor de b: ");
+        Console.Write("Ingrese el valor de b: ");
         Decimal num2 = Convert.ToDecimal(Console.ReadLine());
 
-        if (num1 > 0)
+        if ((num1 > 0) && (num2 > 0))
         {
             decimal Solución = (-num2 / num1);
-            Console.Write($"El coeficiente de la ecuación es igual");
+            Console.Write($"El coeficiente de la ecuación es igual a {Solución}");
         }
-
+        else
+        {
+            Console.Write("Esta ecuación no tiene solución real");
+        }
     }
 
    
