@@ -58,7 +58,16 @@
         Double PromedioComisiones = (DineroVentas / CantidadComisiones);
         Console.WriteLine($"El promedio de las comisiones por cada venta fué de {PromedioComisiones}");
 
-        
-
+        //Solución a la quinta pregunta
+        const double Objetivo = 1000000;
+        const double Beneficio = 100000;
+        if (DineroVentas > Objetivo)
+        {
+            Console.Write($"El vendedor logró el objetivo mensual de {Objetivo:C}. Por ende será bonificado con {Beneficio:C}");
+        }
+        else
+        {
+            Console.Write($"El vendedor no logró el objetivo mensual de {Objetivo:C}");
+        }
     }
 }
