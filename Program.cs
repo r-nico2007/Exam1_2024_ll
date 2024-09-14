@@ -18,21 +18,24 @@
     {
         Console.Write("Ingrese el valor de la primer venta: ");
         double Venta1 = Convert.ToDouble(Console.ReadLine());
-        double Comision1 = Convert.ToDouble(Console.ReadLine());
+        double Comision1 = ((Venta1 * 10) / 100);
 
         Console.Write("Ingrese el valor de la segunda venta: ");
         double Venta2 = Convert.ToDouble(Console.ReadLine());
-        double Comision2 = Convert.ToDouble(Console.ReadLine());
+        double Comision2 = ((Venta2 * 10) / 100);
 
         Console.Write("Ingrese el valor de la tercer venta: ");
         double Venta3 = Convert.ToDouble(Console.ReadLine());
-        double Comision3 = Convert.ToDouble(Console.ReadLine());
+        double Comision3 = ((Venta3 * 10) / 100); 
 
         //Solución a la primera pregunta
         double DineroComisiones = (Comision1 + Comision2 + Comision3);
         Console.WriteLine($"Por comisiones se obtuvo un total de {DineroComisiones:C} por las tres ventas");
 
-        
+        //Solución a la segunda pregunta
+        double DineroVentas = (Venta1 + Venta2 + Venta3);
+        Console.WriteLine($"Se obtuvo por medio de ventas un total de {DineroVentas:C}");
+        double DineroTotal = 
 
     }
 }
