@@ -41,21 +41,24 @@
         //Solución a la tercera pregunta
         if ((Venta1 > Venta2) && (Venta1 > Venta2))
         {
-            Console.Write($"La venta por valor de {Venta1:C} es la de mayor comisión");
+            Console.WriteLine($"La venta por valor de {Venta1:C} es la de mayor comisión");
 
         }
         else if ((Venta2 > Venta1) && (Venta2 > Venta3))
         {
-            Console.Write($"La venta por valor de {Venta2:C} es la de mayor comisión");
+            Console.WriteLine($"La venta por valor de {Venta2:C} es la de mayor comisión");
         }
         else if ((Venta3 > Venta2) && (Venta3 > Venta1))
         {
-            Console.Write($"La venta por valor de {Venta3:C} es la de mayor comisión");
+            Console.WriteLine($"La venta por valor de {Venta3:C} es la de mayor comisión");
         }
 
         //Solución a la cuarta pregunta
         const double CantidadComisiones = 3;
         Double PromedioComisiones = (DineroVentas / CantidadComisiones);
+        Console.WriteLine($"El promedio de las comisiones por cada venta fué de {PromedioComisiones}");
+
+        
 
     }
 }
