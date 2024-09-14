@@ -10,6 +10,10 @@
     //¿Cuál fue el promedio de las comisiones que recibió por cada venta?
 
     {
+        Console.Write("Ingrese el valor de la primer venta: ");
+        double Venta1 = Convert.ToDouble(Console.ReadLine());
+        double Comision1 = Convert.ToDouble(Console.ReadLine());   
 
+        
     }
 }
