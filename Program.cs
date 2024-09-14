@@ -12,8 +12,14 @@
     {
         Console.Write("Ingrese el valor de la primer venta: ");
         double Venta1 = Convert.ToDouble(Console.ReadLine());
-        double Comision1 = Convert.ToDouble(Console.ReadLine());   
+        double Comision1 = Convert.ToDouble(Console.ReadLine());
 
-        
+        Console.Write("Ingrese el valor de la segunda venta: ");
+        double Venta2 = Convert.ToDouble(Console.ReadLine());
+        double Comision2 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Ingrese el valor de la tercer venta: ");
+        double Venta3 = Convert.ToDouble(Console.ReadLine());
+        double Comision3 = Convert.ToDouble(Console.ReadLine());
     }
 }
