@@ -35,7 +35,9 @@
         //Solución a la segunda pregunta
         double DineroVentas = (Venta1 + Venta2 + Venta3);
         Console.WriteLine($"Se obtuvo por medio de ventas un total de {DineroVentas:C}");
-        double DineroTotal = 
+        double DineroTotal = (DineroVentas + DineroComisiones);
+        Console.Write($"Teniendo en cuenta que su sueldo base son sus ventas. El vendedor recibirá un sueldo de {DineroTotal:C}");
+
 
     }
 }
